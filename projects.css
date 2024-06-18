@@ -1,0 +1,82 @@
+
+*{
+    background-color: rgb(55, 58, 58);
+}
+
+.nav-navlist {
+    display: flex;
+    gap: 3.5rem;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+}
+
+.nav-navlist li {
+    list-style: none;
+    
+}
+.nav-navlist li a::after, .nav-navlist .active::after{
+    content: "";
+    position: absolute;
+    background-color: #e91212;
+    width: 100%;
+    height:0.1rem;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+
+.nav-navlist li a:hover::after, .nav-navlist .active::after{
+    transform: scaleX(1);
+}
+
+
+
+.nav-navlist li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #f5efef;
+    position: relative;
+}
+
+.footer h3{
+    text-align: center;
+    border: 0.5px solid;
+    background-color: rgb(75, 71, 71);
+    color: aqua;
+
+  
+}
+.footer h3 a{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container h1{
+    text-align: center;
+    color: aqua;
+    text-decoration: underline;
+}
+ 
+.container h2{
+    text-align: center;
+    color: chartreuse;
+    text-decoration: underline;
+
+}
+    
+
+.container p{
+    font-size: 30px;
+    color:burlywood;
+}
+
+.certificate img{
+    padding: 20px 10px;
+    margin-left: 250px;
+}
+
