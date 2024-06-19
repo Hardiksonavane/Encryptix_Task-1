@@ -5,8 +5,12 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    color: #f7f1f1;
-    
+    color: #f7f1f1;  
+}
+
+.main{
+    max-height:fit-content;
+   overflow: hidden;
 }
 
 .portfolio-container {
